@@ -1,3 +1,4 @@
+from atexit import register
 from stub_io import StubIO
 from repositories.user_repository import UserRepository
 from services.user_service import UserService
